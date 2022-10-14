@@ -1,0 +1,1 @@
+cmd_/home/msr/LDD/first_device_driver/Module.symvers := sed 's/\.ko$$/\.o/' /home/msr/LDD/first_device_driver/modules.order | scripts/mod/modpost -m -a  -o /home/msr/LDD/first_device_driver/Module.symvers -e -i Module.symvers   -T -

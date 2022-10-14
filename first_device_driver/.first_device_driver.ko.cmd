@@ -1,0 +1,1 @@
+cmd_/home/msr/LDD/first_device_driver/first_device_driver.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/msr/LDD/first_device_driver/first_device_driver.ko /home/msr/LDD/first_device_driver/first_device_driver.o /home/msr/LDD/first_device_driver/first_device_driver.mod.o;  true
