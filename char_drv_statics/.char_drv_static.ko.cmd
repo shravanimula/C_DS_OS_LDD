@@ -1,0 +1,1 @@
+cmd_/home/msr/LDD/char_drv_statics/char_drv_static.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/msr/LDD/char_drv_statics/char_drv_static.ko /home/msr/LDD/char_drv_statics/char_drv_static.o /home/msr/LDD/char_drv_statics/char_drv_static.mod.o;  true

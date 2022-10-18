@@ -1,4 +1,4 @@
-obj-m+=char_drv_static.o
+obj-m+=char_dev_udev.o
 #obj-m is to bulid as module
 #obj-y is to build as statically
 
@@ -7,5 +7,6 @@ KDIR= /lib/modules/$(shell uname -r)/build
 
 all:
 	make -C $(KDIR) M=$(shell pwd) modules
+
 clean:
-	make -C $(KDIR) M=$(shell pwd) modules
+	make -C $(KDIR) M=$(shell pwd) clean

@@ -1,0 +1,1 @@
+cmd_/home/msr/LDD/char_dev_udev/Module.symvers := sed 's/\.ko$$/\.o/' /home/msr/LDD/char_dev_udev/modules.order | scripts/mod/modpost -m -a  -o /home/msr/LDD/char_dev_udev/Module.symvers -e -i Module.symvers   -T -

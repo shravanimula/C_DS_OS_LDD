@@ -1,0 +1,1 @@
+cmd_/home/msr/LDD/char_dev_udev/char_dev_udev.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/msr/LDD/char_dev_udev/char_dev_udev.ko /home/msr/LDD/char_dev_udev/char_dev_udev.o /home/msr/LDD/char_dev_udev/char_dev_udev.mod.o;  true

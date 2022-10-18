@@ -1,0 +1,2 @@
+/home/msr/LDD/char_drv_statics/char_drv_static.o
+
